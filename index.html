@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css"/>   
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body> 
+      <div class="control-buttons">
+        <span>Start Game</span>
+        <input  type="text" placeholder="Your Name">
+      </div>
+      <div class="info-container">
+        <div class="name">
+          Hello: <span></span>
+        </div>
+        <div class="time">
+          <p><span class="minutes"></span>:<span class="seconds"></span></p>
+        </div>
+        <div class="points">
+          points: <span>0</span>
+        </div>
+        <div class="tries">
+          Wrong Tries: <span>0</span>
+        </div>
+      </div>
+      <div class="memory-game-blocks">
+        <div class="game-block" data-technology="angular">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Angular-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Angular-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/vue.sj-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="vuejs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/vue.sj-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/CSS3.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="css3">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/CSS3.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="github">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/github-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="github">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/github-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Gulp.js_Logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Gulp.js_Logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/HTML5_Badge.svg.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="html5">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/HTML5_Badge.svg.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/jest.svg" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/jest.svg" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/mongodb.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/mongodb.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="python">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Python-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="python">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/Python-logo.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="react">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/React-js.png" alt="">
+          </div>
+        </div>
+        <div class="game-block" data-technology="react">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/React-js.png" alt="">
+          </div>
+        </div>
+      </div>
+      <audio id="success" src="audio/mixkit-instant-win-2021.wav" preload="auto"></audio>
+      <audio id="fail" src="audio/negative_beeps-6008.mp3" preload="auto"></audio>
+      <script src="main.js"></script>
+</body>
+</html>
